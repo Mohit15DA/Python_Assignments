@@ -3,7 +3,6 @@ Python Programming Questions – LIST
 Basic Level
 
 1. Write a Python program to create a list of integers and print its elements.
-
 Program:
 i= int(input("enter your number from  1 to :"))
 li=[]
@@ -14,7 +13,6 @@ for num in li:
     print(num)
 
 2. Write a program to find the sum and average of all elements in a list.
-
 Program:
 i= int(input("enter your number from  1 to :"))
 li=[]
@@ -24,9 +22,7 @@ print(li)
 print("the sum is:",sum(li))
 print("the average is :",sum(li)/len(li))  
 
-
 3. Write a program to find the largest and smallest element in a list.
-
 Program:
 i= int(input("enter your number from  1 to :"))
 li=[]
@@ -36,9 +32,7 @@ print(li)
 print("the largest element is:",max(li))
 print("the smallest element is :",min(li))
 
-
 4. Write a Python program to count the number of elements in a list without using len().
-
 Program:
 i= int(input("enter your number from  1 to :"))
 li=[]
@@ -51,9 +45,7 @@ for num in li:
     count = count+1
 print(" Total lenght :",count)
 
-
 5. Write a program to reverse a list without using built-in functions.
-
 Program:
 i= int(input("enter your number from  1 to :"))
 li=[]
@@ -63,9 +55,7 @@ print("Your List is ",li)
 li.reverse()
 print("Reverse List is",li)
 
-
 6. Write a program to check if an element exists in a list.
-
 Program:
 i= int(input("enter your number from  1 to :"))
 li=[]
@@ -78,9 +68,7 @@ if check in li:
 else:
     print ("No element not exists in the list")
 
-
 7. Write a Python program to remove duplicate elements from a list.
-
 Program:
 li=[1,12,23,52,12,23,96,56]
 print("Your List is ",li)
@@ -90,9 +78,7 @@ for num in li:
         new_li.append(num)
 print("NEW list without duplicates",new_li)        
 
-
 8. Write a program to sort a list in ascending and descending order.
-
 Program:
 li=[1,12,23,52,12,23,96,56]
 print("Your List is ",li)
@@ -101,8 +87,8 @@ print("Ascending",li)
 li.reverse()
 print("Descending",li)
 
-Intermediate Level
 
+Intermediate Level
 9. Write a program to merge two lists and remove duplicates.
 Program:
 li1=[1,12,23,34,45,56,78]
@@ -168,8 +154,8 @@ Program:
 16. Write a program to replace all negative numbers with zero in a list.
 Program:
 
-Advanced Level
 
+Advanced Level
 17. Write a program to remove all occurrences of a given element from a list.
 Program:
 
@@ -178,7 +164,17 @@ Program:
 
 19. Write a Python program to find missing numbers in a given list of consecutive integers.
 Program:
-
+li=[2,4,6,8,12,14,18,20]
+diff=li[1]-li[0]
+print(li)
+flag=0
+for i in range(0,len(li)-1):
+    if li[i]+diff!=li[i+1]:
+        print(f"{i+2} place missing value:",li[i]+diff)
+        flag=1
+if flag==0:
+    print("NO Missing Value")
+   
 20. Write a program to perform element-wise addition of two lists.
 Program:
 
@@ -210,22 +206,46 @@ for x in li:
                 grouped_list.append(j)  
 print("GROUPED list:",grouped_list)
 
-Python Programming Questions – TUPLE 
+
+Python Programming Questions – TUPLE
 Basic Level 
+
 23. Write a Python program to create a tuple and print its elements. 
 Program:
+i= int(input("enter your number from  1 to :"))
+li=[]
+for i in range(1,i+1):
+      li.append(i)
+print("Your tuple is ",tuple(li))
+for num in li:
+    print(num)
 
 24. Write a program to find the length of a tuple. 
 Program:
+t=(4,15,16,31,14,28,29)
+print(t)
+print("Length of tuple is :",len(t))
 
 25. Write a program to find the maximum and minimum element in a tuple. 
 Program:
+t=(4,15,16,31,14,28,29)
+print(t)
+print("Minimum element of tuple is :",min(t))
+print("Maximum element of tuple is :",max(t))
 
 26. Write a program to convert a tuple into a list. 
 Program:
+t=(4,15,16,31,14,28,29)
+print(t)
+print(list(t))
 
 27. Write a program to check if an element exists in a tuple. 
 Program:
+i= int(input("enter number to check in the tuple : "))
+t=(4,15,16,31,14,28,29)
+for num in t:
+    if num==i:
+       print(f"Element{i} Exists in the list")
 
 28. Write a program to count occurrences of an element in a tuple. 
 Program:
@@ -255,6 +275,13 @@ Program:
 
 36. Write a program to remove an element from a tuple (without directly modifying it). 
 Program:
+t1=(12,45,67,89,99,15,31)
+num=99
+li=[]
+for x in t1:
+    if num!=x:
+        li.append(x)
+print(tuple(li))
 
 37. Write a program to find common elements between two tuples. 
 Program:
@@ -277,7 +304,18 @@ print(element,maxx)
 Program:
 
 
+
 """
+
+
+
+
+
+
+
+
+
+
 
 
 
