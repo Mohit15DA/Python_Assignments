@@ -1,6 +1,6 @@
 """
 Python Programming Questions – LIST 
-Basic Level
+## Basic Level
 
 1. Write a Python program to create a list of integers and print its elements.
 Program:
@@ -88,7 +88,7 @@ li.reverse()
 print("Descending",li)
 
 
-Intermediate Level
+## Intermediate Level
 9. Write a program to merge two lists and remove duplicates.
 Program:
 li1=[1,12,23,34,45,56,78]
@@ -150,17 +150,34 @@ print("Flatten list:",f_li)
     
 15. Write a program to count frequency of each element in a list.
 Program:
-
+li=[1,5,5,78,9,4,653,2,4,6,78,6,4,4,5,3,45,6,7,4,4]
+for i in li:
+    print(f"frequency of element {i} is:" ,li.count(i))
+    
 16. Write a program to replace all negative numbers with zero in a list.
 Program:
+li=[1,5,-8,5,-30,45,-6,7,4,-4]
+for num in range (len(li)):
+        if li[num]<0:
+            li[num]=0
+        print(li)
+        
 
-
-Advanced Level
+## Advanced Level
 17. Write a program to remove all occurrences of a given element from a list.
 Program:
+n= int(input("enter no.to remove:" ))
+li=[1,5,8,5,30,45,6,7,4,4]
+li.remove(n)
+print(li)
 
 18. Write a program to check if a list is a palindrome.
 Program:
+li=[1,2,3,2,1]
+if li==li[::-1]:
+    print("List is palindrome")
+else:
+    print("List is not palindrome")
 
 19. Write a Python program to find missing numbers in a given list of consecutive integers.
 Program:
@@ -177,6 +194,11 @@ if flag==0:
    
 20. Write a program to perform element-wise addition of two lists.
 Program:
+li=[15,5,25,30,45]
+li2=[14,12,34,65,8]
+li3=zip(li,li2) #zip creates pair of li&li2 in the form of(x,y)
+addition=[x+y for x,y in li3]
+print (addition)
 
 21. Write a Python program to find the longest increasing subsequence in a list.
 Program:
@@ -208,7 +230,7 @@ print("GROUPED list:",grouped_list)
 
 
 Python Programming Questions – TUPLE
-Basic Level 
+## Basic Level 
 
 23. Write a Python program to create a tuple and print its elements. 
 Program:
@@ -249,29 +271,68 @@ for num in t:
 
 28. Write a program to count occurrences of an element in a tuple. 
 Program:
+i=int(input("enter no to check occurance  :"))
+t=(10,3,12,32,3,12,45,14,3,12,63,3,98,12)
+o_rance=t.count(i)
+print (o_rance)
 
-Intermediate Level 
+
+## Intermediate Level 
 29. Write a program to slice a tuple and display the result. 
 Program:
+i= int (input("enter START index no:"))
+j= int (input("enter STOP index no:"))
+k= int (input("enter  No. of STEP :"))
+t=(10,3,12,32,3,12,45,14,3,12,63,3,98,12)
+sl_ed=t[i:j:k]
+print("Sliced list:",sl_ed)
 
 30. Write a program to find repeated elements in a tuple. 
 Program:
-
+t=(10,3,12,32,3,12,45,14,3,12,63,3,98,12)
+for i in range(len(t)) :
+    if(t.count(t[i]))>1:
+        print(t[i])
+        
 31. Write a program to merge two tuples. 
 Program:
+t1=(10,3,45,16,2)
+t2=(15,14,13,12)
+t3=t1+t2
+print("Merged tuple:",t3)
 
 32. Write a program to unpack elements of a tuple into variables. 
 Program:
+t1=(10,3,45,16,2)
+a,b,c,d,e =t1
+print(f"A:{a},B:{b},C:{c},D:{d},E:{e}")
 
 33. Write a Python program to sort a tuple. 
 Program:
+t=(12,3,45,16,6,67,49,99,5)
+li=list(t)
+li.sort()
+print("sorting in ascending:",li)
+li.reverse()
+print("sorting in descending:",li)
 
 34. Write a program to convert a list of tuples into a dictionary. 
 Program:
+t=(14,5,15,85,6)
+s=set(t)
+d={}
+for num in s:
+    for i in range (1,6):
+        print({i:num})
 
-Advanced Level 
+        
+## Advanced Level 
 35. Write a program to find the index of an element in a tuple. 
 Program:
+t=(14,5,15,85,6)
+i=int(input("enter no. to check the index :"))
+in_dx=t.index(i)
+print(in_dx)
 
 36. Write a program to remove an element from a tuple (without directly modifying it). 
 Program:
@@ -285,9 +346,19 @@ print(tuple(li))
 
 37. Write a program to find common elements between two tuples. 
 Program:
+t=(14,5,15,85,6)
+t2=(5,6,10,85,88)
+s=set(t)
+s2=set(t2)
+print(s&s2)
 
 38. Write a Python program to check if a tuple is a palindrome. 
 Program:
+t=(1,2,3,2,1)
+if t==t[::-1]:
+    print("Tuple is palindrome")
+else:
+    print("Tuple is not palindrome")
 
 39. Write a program to find the element with maximum frequency in a tuple. 
 Program:
@@ -302,20 +373,14 @@ print(element,maxx)
 
 40. Write a program to create a nested tuple and access its elements.
 Program:
-
+t=(2,(14,5,15),85,(6,8,9),12)
+print(t)
+for i in range(0,len(t)):
+  print(t[i])
+  
 
 
 """
-
-
-
-
-
-
-
-
-
-
 
 
 
