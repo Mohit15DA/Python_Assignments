@@ -4,9 +4,18 @@
    
 1. Write a program to count the number of vowels in a string. 
 Program:
+count=0
+st="Python is easier language!"
+st1="a,e,i,o,u,A,E,I,O,U"
+for ch in st:
+    if ch in st1:
+        count=count+1
+        print("Total No. of vowels in string :",count)
 
 2. Reverse a string without using built-in functions. 
 Program:
+st="Python is easier language"
+print(st[::-1])
 
 3. Check whether a string is a palindrome. 
 Program:
@@ -103,10 +112,3 @@ for i in range (0,len(st)):
     print(st[0:i+1])
 
 """
-
-
-
-
-
-
-
