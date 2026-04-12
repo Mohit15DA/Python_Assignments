@@ -266,8 +266,144 @@ for i in li:
     if li.count(i)==1:
        print(f"{i} is the Element that appear only once in a list. ")
 
+## Dictionary Programming Questions 
+Basic 
 
+1. Create a dictionary and print all keys and values. 
+Program:
+d={1:11,3:55,4:66,5:8,6:77}
+for i,j in d.items():
+    print(f"Keys{i}and Values are{j} ")
+
+2. Count frequency of each word in a sentence. 
+Program:
+st=["Python" ,"Is", "Easier", "Programming", "Language"]
+for ch in st:
+    ch1=len(ch)
+    print(f"{ch}:",ch1)
+    
+3. Merge two dictionaries. 
+Program:
+d1={1:34,2:67,4:78,'A':54}
+d2={6:24,3:46,9:45,7:88}
+d1.update(d2)
+print(d1)
+    
+4. Find the length of a dictionary. 
+Program:
+d1={1:34,2:67,4:78,'A':54}
+print(len(d1))
+    
+5. Check if a key exists in a dictionary. 
+Program:
+u=int(input("Enter key to check existence:"))
+d1={1:34,2:67,4:78,'A':54}
+for i,j in d1.items():
+    if u==i:
+     print("Key exists in a dictionary")
+    else:
+        print("NOT Exists")
+    
+Intermediate 
+
+6. Sort a dictionary by values. 
+Program:
+d1={1:34,2:67,4:78,'A':54}
+for i,j in d1.items():
+    ch=d1.values()
+    ch1=list(ch)
+    ch2=ch1.sort()
+    print(ch1)
+    
+7. Find the key with the maximum value. 
+Program:
+d1={1:34,2:67,4:78,'A':54}
+max_val=(max(d1.values()))
+for i,j in d1.items():
+    if max_val==j:
+        print("Key with max value:",i)
+
+8. Remove a key from a dictionary. 
+Program:
+a = {"name": "Varun", "age": 25, "city": "New York"}
+rv = a.pop("age")
+print(a)  
+print(rv)  
+
+9. Convert two lists into a dictionary. 
+Program:
+li1=[1,2,3,4]
+li2=[6,7,8,9]
+dic = {}
+for k, v in zip(li1, li2):
+    dic[k] = v
+print(dic)
+
+10. Count character frequency using a dictionary. 
+Program:
+d={"The","Python"," Is"," Easier"," Programming"," Language"}
+d1=list(d)
+for ch in d1:
+    print(f"frequency of element {ch} is:" ,d1.count(ch))
+
+Tricky 
+
+11. Invert a dictionary (swap keys and values). 
+Program:
+o_d={1:34,2:45,3:56,4:55}
+inverted_d=dict(zip(o_d.values(),o_d.keys()))
+print(inverted_d)
+
+12.Group elements by frequency using a dictionary. 
+Program:
+
+13. Find duplicate values in a dictionary. 
+Program:
+
+14. Create a nested dictionary for student records. 
+Program:
+students={}
+students['student1'] = {'name': 'Anupam', 'age': 20, 'grade': 'A'}
+students['student2'] = {'name': 'Varun', 'age': 22, 'grade': 'B'}
+students['student3'] = {'name': 'Jatin', 'age': 21, 'grade': 'A+'}
+print("Student Details:",students)
+
+15. Flatten a nested dictionary.
+Program:
+
+## Mixed (String + Set + Dictionary)
+
+1. Count unique words in a sentence. 
+Program:
+st="I am doing string assignment"
+se_t=set(st)
+print("Unique Words :",se_t)
+
+2. Find common characters between two strings. 
+Program:
+st="I am doing string assignment"
+st1=" I am doing project "
+se_t=set(st)
+se_t1=set(st1)
+print("common characters:",se_t.intersection(se_t1))
+
+3. Find the most frequent character in a string.
+Program:
+
+4. Remove duplicate words from a sentence.
+Program:
+st="I am doing string assignment"
+se_t=set(st)
+print("After removing duplicate words:",se_t)
+
+5. Find words with the same letters (anagram groups).
+Program:
 
 """
+
+
+
+
+
 
 
