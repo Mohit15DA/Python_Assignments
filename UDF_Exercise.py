@@ -55,18 +55,7 @@ Intermediate Level
 18. Create a function to count frequency of each element in a list.  
 19. Write a function that merges two lists into one.  
 20. Create a function to calculate simple interest.  
-Advanced Level 
-21. Write a function using recursion to find factorial.  
-22. Create a recursive function for Fibonacci series.  
-23. Write a function that accepts *args and returns their sum.  
-24. Write a function that accepts **kwargs and prints key-value pairs.  
-25. Create a function decorator that prints 
-"Function Started" and "Function Ended".  
-26. Write a function that returns another function (closure concept).  
-27. Create a function to sort a list without using built-in sort().  
-28. Write a function that finds common elements in two lists.  
-29. Create a function to flatten a nested list.  
-30. Write a function that validates an email format. 
+
 
 """
 
