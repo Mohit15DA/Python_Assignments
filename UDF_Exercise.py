@@ -44,17 +44,7 @@ Program:
 8. Create a function that checks if a number is positive, negative, or zero.  
 9. Write a function to count the number of vowels in a string.  
 10. Create a function that returns the length of a list (without using len()).
-Intermediate Level 
-11. Write a function to check whether a number is prime.  
-12. Create a function that returns the reverse of a string.  
-13. Write a function to find the sum of all elements in a list.  
-14. Create a function that returns the second largest number in a list.  
-15. Write a function to remove duplicates from a list.  
-16. Create a function that checks if a string is a palindrome.  
-17. Write a function that takes a list and returns only even numbers.  
-18. Create a function to count frequency of each element in a list.  
-19. Write a function that merges two lists into one.  
-20. Create a function to calculate simple interest.  
+  
 
 
 """
