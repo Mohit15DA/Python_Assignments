@@ -65,14 +65,73 @@ if bal<minimum_limit :
  print("Warning :Your balance is low")
 
 B. Python IF–ELSE (Two Conditions)
-11. Check whether a number is even or odd. 
-12. Find the largest of two numbers. 
-13. Check whether a person is eligible for driving license. 
-14. Print "Pass" or "Fail" based on marks. 
-15. Check whether a number is positive or negative. 
-16. Check whether a character is a vowel or consonant. 
-17. Check if a year is leap or not. 
+11. Check whether a number is even or odd.
+Program:
+num= int(input("enter no to check"))
+if num%2==0:
+ print("Even")
+else:
+    print("Odd")
+    
+12. Find the largest of two numbers.
+Program:
+n1=int(input("Enter your first number:"))
+n2=int(input("Enter your second number:"))
+if n1>n2:
+ print(f"{n1}, is greater")
+else:
+    print(f"{n2}, is greater")
+    
+13. Check whether a person is eligible for driving license.
+Program:
+age=int(input("Enter your age:"))
+if age>=18:
+ print("Eigible for license")
+else:
+    print("Not eligible for license")
+
+14. Print "Pass" or "Fail" based on marks.
+Program:
+marks=int(input("Enter your marks out of 100:"))
+if marks>=33:
+ print("Pass")
+else:
+    print("Fail")
+    
+15. Check whether a number is positive or negative.
+Program:
+num= int(input("enter no to check:"))
+if num>0:
+ print("Positive")
+else:
+    print("Negative")
+
+16. Check whether a character is a vowel or consonant.
+Program:
+ch= input("Enter charater:")
+if ch=='a':
+ print("Vowel")
+else:
+    if ch=='e':
+        print("Vowel")
+    else:
+        if ch=='i':
+            print("Vowel")
+        else:
+            if ch=='o':
+                print("Vowel")
+            else:
+                if ch=='u':
+                   print("Vowel")
+                else:
+                    print("Consonant")
+
+
+17. Check if a year is leap or not.
+Program:
 18. Print "Valid Password" or "Invalid Password". 
 19. Determine whether salary is taxable or not. 
 20. Check whether a number is greater than 50 or not.
 """
+
+
