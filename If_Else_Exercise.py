@@ -65,6 +65,7 @@ if bal<minimum_limit :
  print("Warning :Your balance is low")
 
 B. Python IF–ELSE (Two Conditions)
+
 11. Check whether a number is even or odd.
 Program:
 num= int(input("enter no to check"))
@@ -129,9 +130,92 @@ else:
 
 17. Check if a year is leap or not.
 Program:
-18. Print "Valid Password" or "Invalid Password". 
-19. Determine whether salary is taxable or not. 
+
+18. Print "Valid Password" or "Invalid Password".
+Program:
+pass_word=input("Enter your password:")
+password="Python1234"
+if pass_word==password:
+    print("Valid password")
+else:
+    print("Invalid password")
+    
+19. Determine whether salary is taxable or not.
+Program:
+salary=int(input("Enter your salary:"))
+if salary >=10000:
+    print("Taxable")
+else:
+    print("Not taxable")
+
 20. Check whether a number is greater than 50 or not.
+Program:
+num=int(input("Enter your num:"))
+if num>50:
+    print("Greater than 50")
+else:
+    print("Not greater than 50")
+
+C. Python NESTED IF–ELSE
+
+21. Find the largest of three numbers.
+Program:
+n1=int(input("Enter your first number:"))
+n2=int(input("Enter your second number:"))
+n3=int(input("Enter your third number:"))
+if n1>n2:
+    if n1>n3:
+        print(f"{n1} is largest")
+    else:
+        print(f"{n3} is largest")
+else:
+    if n2>n3:
+        print(f"{n2} is largest")
+    else:
+        print(f"{n3} is largest")
+
+22. Check whether a number is positive, negative, or zero.
+Program:
+num=int(input("Enter your number:"))
+if num>0:
+    print("Positive")
+else:
+    if num<0:
+        print("Negative")
+    else:
+        print("Zero")
+        
+23. Assign grades: 
+● A → marks ≥ 90 
+● B → marks ≥ 75 
+● C → marks ≥ 60 
+● Fail → below 60
+Program:
+num=int(input("Enter your numbers:"))
+if num>=90:
+    print("A Grade")
+else:
+    if num>=75:
+        print("B Grade")
+    else:
+        if num>=60:   
+            print("C Grade")
+        else:
+            print("Fail")
+        
+24. Check whether a triangle is equilateral, isosceles, or scalene.
+Program:
+
+25. Check whether a character is uppercase, lowercase, digit, or special character. 
+26. Calculate electricity bill using slab-wise rates. 
+27. Validate login using username and password. 
+28. Check student result using marks of 3 subjects. 
+29. Find the second largest number among three numbers. 
+30. Check loan eligibility using age, salary, and credit score.
 """
+
+
+
+
 
 
