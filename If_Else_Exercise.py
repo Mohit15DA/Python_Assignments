@@ -207,15 +207,24 @@ else:
 Program:
 
 25. Check whether a character is uppercase, lowercase, digit, or special character. 
+Program:
+
 26. Calculate electricity bill using slab-wise rates. 
+Program:
+
 27. Validate login using username and password. 
+Prgram:
+username="Python"
+password="Python1234"
+user_name=input("Enter your user name:")
+if user_name==username:
+    pass_word=input("Enter your password:")
+    if pass_word==password:
+        print("login successfully")
+else:
+    print("login failed")
+
 28. Check student result using marks of 3 subjects. 
 29. Find the second largest number among three numbers. 
 30. Check loan eligibility using age, salary, and credit score.
 """
-
-
-
-
-
-
