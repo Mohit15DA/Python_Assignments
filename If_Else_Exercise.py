@@ -224,7 +224,31 @@ if user_name==username:
 else:
     print("login failed")
 
-28. Check student result using marks of 3 subjects. 
-29. Find the second largest number among three numbers. 
+28. Check student result using marks of 3 subjects.
+Program:
+
+29. Find the second largest number among three numbers.
+Program:
+a=int(input("Enter your first number:"))
+b=int(input("Enter your second number:"))
+c=int(input("Enter your third number:"))
+if a>b:
+    if a>c:
+        if b>c:
+            second=b
+        else:
+            second=c
+    else:
+        second=a
+else:
+    if b>c:
+        if a>c:
+            second=a
+        else:
+            second=c
+    else:
+        second=b
+print(second,"is the second largest number")
+                
 30. Check loan eligibility using age, salary, and credit score.
 """
