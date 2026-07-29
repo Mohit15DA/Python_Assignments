@@ -251,4 +251,31 @@ else:
 print(second,"is the second largest number")
                 
 30. Check loan eligibility using age, salary, and credit score.
+Program:
+age=int(input("Enter your age:"))
+salary=int(input("Enter your salary:"))
+credit_score=int(input("Enter your credit score:"))
+if age>18:
+    if age<=60:
+        print("eligible for loan")
+    else:
+        print("not eligible as age is older")
+else:
+    print("not eligible as you are under age")
+if salary>25000:
+    print("eligible for loan")
+else:
+    print("not eligible as your salary is lesser")
+if credit_score>600:
+    print("eligible for loan")
+else:
+    print("not eligible as your credit score is lesser ")
+    
+
 """
+
+
+
+
+
+
