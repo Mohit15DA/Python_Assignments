@@ -291,8 +291,54 @@ elif day_num==6:
 elif day_num==7:
     print("SUNDAY")
     
-32. Print month name using month number. 
-33. Display grade based on percentage. 
+32. Print month name using month number.
+Program:
+m_num=int(input("Enter your month number:"))
+if m_num==1:
+    print("JANUARY")
+elif m_num==2:
+    print("FEBRUARY")
+elif m_num==3:
+    print("MARCH")
+elif m_num==4:
+    print("APRIL")
+elif m_num==5:
+    print("MAY")
+elif m_num==6:
+    print("JUNE")
+elif m_num==7:
+    print("JULY")
+elif m_num==8:
+    print("AUGUST")
+elif m_num==9:
+    print("SEPTEMBER")
+elif m_num==10:
+    print("OCTOBER")
+elif m_num==11:
+    print("NOVEMBER")
+elif m_num==12:
+    print("DECEMBER")
+    
+33. Display grade based on percentage.
+Program:
+P_age=int(input("Enter your percentage:"))
+if P_age>=90:
+    print("A+")
+elif P_age>=80:
+    print("A")
+elif P_age>=70:
+    print("B+")
+elif P_age>=60:
+    print("B")
+elif P_age>=50:
+    print("C+")
+elif P_age>=40:
+    print("C")
+elif P_age>=30:
+    print("D")
+elif P_age>=0:
+    print("E:FAIL")
+    
 34. Display bonus percentage based on experience years. 
 35. Identify traffic signal meaning. 
 36. Categorize temperature as Cold / Warm / Hot. 
@@ -301,9 +347,5 @@ elif day_num==7:
 39. Identify number type: single-digit / double-digit / multi-digit. 
 40. Assign performance rating: Poor / Average / Good / Excellent.
 """
-
-
-
-
 
 
