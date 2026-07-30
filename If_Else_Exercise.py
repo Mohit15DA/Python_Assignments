@@ -271,7 +271,35 @@ if credit_score>600:
 else:
     print("not eligible as your credit score is lesser ")
     
+D. Python ELIF (Multiple Conditions) 
 
+31. Print day name using day number (1–7). 
+Program:
+day_num=int(input("Enter your day number:"))
+if day_num==1:
+    print("MONDAY")
+elif day_num==2:
+    print("TUESDAY")
+elif day_num==3:
+    print("WEDNESDAY")
+elif day_num==4:
+    print("THURSDAY")
+elif day_num==5:
+    print("FRIDAY")
+elif day_num==6:
+    print("SATURDAY")
+elif day_num==7:
+    print("SUNDAY")
+    
+32. Print month name using month number. 
+33. Display grade based on percentage. 
+34. Display bonus percentage based on experience years. 
+35. Identify traffic signal meaning. 
+36. Categorize temperature as Cold / Warm / Hot. 
+37. Categorize employee based on salary range. 
+38. Print discount percentage based on purchase amount. 
+39. Identify number type: single-digit / double-digit / multi-digit. 
+40. Assign performance rating: Poor / Average / Good / Excellent.
 """
 
 
