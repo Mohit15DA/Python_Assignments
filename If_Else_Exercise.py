@@ -339,9 +339,38 @@ elif P_age>=30:
 elif P_age>=0:
     print("E:FAIL")
     
-34. Display bonus percentage based on experience years. 
-35. Identify traffic signal meaning. 
-36. Categorize temperature as Cold / Warm / Hot. 
+34. Display bonus percentage based on experience years.
+Program:
+Exp=int(input("Enter your Experience:"))
+if Exp>=15:
+    print("45% bonus")
+elif Exp>=10:
+    print("35% bonus")
+elif Exp>=5:
+    print("25% bonus")
+elif Exp>=1:
+    print("15% bonus")
+    
+35. Identify traffic signal meaning.
+Program:
+signal=input("Enter light colour:")
+if signal=="red":
+    print("STOP")
+elif signal=="yellow":
+    print("WAIT")
+elif signal=="green":
+    print("GO")
+
+36. Categorize temperature as Cold / Warm / Hot.
+Program:
+temp=int(input("Enter temperature:"))
+if temp>=45:
+    print("HOT")
+elif temp>=20:
+    print("WARM")
+elif temp>=-5:
+    print("cold")
+
 37. Categorize employee based on salary range. 
 38. Print discount percentage based on purchase amount. 
 39. Identify number type: single-digit / double-digit / multi-digit. 
