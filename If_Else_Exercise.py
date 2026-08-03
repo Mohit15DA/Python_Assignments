@@ -371,10 +371,47 @@ elif temp>=20:
 elif temp>=-5:
     print("cold")
 
-37. Categorize employee based on salary range. 
-38. Print discount percentage based on purchase amount. 
-39. Identify number type: single-digit / double-digit / multi-digit. 
+37. Categorize employee based on salary range.
+Program:
+salary=int(input("Enter your salary:"))
+if salary>=100000:
+    print("Manager level employee")
+elif salary>=80000:
+    print("Senior level employee")
+elif salary>=50000:
+    print("Junior level employee")
+elif salary>=10000:
+    print("Trainee level employee")
+
+38. Print discount percentage based on purchase amount.
+Program:
+purchase_amount=float(input("Enter the total purchase amount:"))
+if purchase_amount>=500:
+    discount_percent=20
+elif purchase_amount>=200:
+    discount_percent=15
+elif purchase_amount>=100:
+    discount_percent=10
+elif purchase_amount>0:
+    discount_percent=0
+else:
+    discount_percent=0
+    print("Invalid purchase amount.")
+discount_amount=(discount_percent/100)*purchase_amount
+final_price=purchase_amount-discount_amount
+print(f"Discount applied:{discount_percent}%")
+print(f"Money saved : ${discount_amount:.2f}")
+print(f"Final price to pay:${final_price:.2f}")
+
+39. Identify number type: single-digit / double-digit / multi-digit.
+Program:
+
 40. Assign performance rating: Poor / Average / Good / Excellent.
+Program:
+
 """
 
 
+
+    
+    
