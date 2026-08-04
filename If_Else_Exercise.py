@@ -405,13 +405,27 @@ print(f"Final price to pay:${final_price:.2f}")
 
 39. Identify number type: single-digit / double-digit / multi-digit.
 Program:
+number=int(input("Enter your number:"))
+if number>=100:
+    print("Multi-digit number")
+elif number>=10:
+    print("Double-digit number")
+elif number>=0:
+    print("Single-digit number")
 
 40. Assign performance rating: Poor / Average / Good / Excellent.
 Program:
-
+rating=int(input("Enter your rating 1-10:"))
+if rating>=8:
+    print("EXCELLENT")
+elif rating>=6:
+    print("GOOD")
+elif rating>=4:
+    print("AVERAGE")
+elif rating>=0:
+    print("POOR")
+    
 """
-
-
 
     
     
