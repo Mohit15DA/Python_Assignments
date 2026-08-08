@@ -424,6 +424,31 @@ elif rating>=4:
     print("AVERAGE")
 elif rating>=0:
     print("POOR")
+
+E. Python COMPLEX CONDITIONS (AND / OR / NOT) 
+
+41. Check whether a number is divisible by 5 and 11. 
+Program:
+
+42. Check if a person is eligible for loan: 
+● age ≥ 21 
+● salary ≥ 25,000 
+● credit score ≥ 700 
+43. Validate login using username AND password. 
+44. Check student pass condition: 
+● All subjects ≥ 40 
+● Average ≥ 50 
+45. Check if a number lies between 10 and 100. 
+46. Check exam eligibility: 
+● attendance ≥ 75% OR 
+● medical certificate available 
+47. Validate a date using conditions. 
+48. Check whether an email format is valid. 
+49. Determine insurance eligibility using age, health status, and income. 
+50. Check leap year using complete leap year logic.
+
+
+
     
 """
 
