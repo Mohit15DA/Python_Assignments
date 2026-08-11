@@ -429,12 +429,29 @@ E. Python COMPLEX CONDITIONS (AND / OR / NOT)
 
 41. Check whether a number is divisible by 5 and 11. 
 Program:
-
+num=int(input("Enter your number to check divisibility"))
+if num%5==0 and num%11==0:
+    print("Number is divisible by 5 and 11")
+else:
+    print("Number is not divisible by 5 and 11")
+    
 42. Check if a person is eligible for loan: 
 ● age ≥ 21 
 ● salary ≥ 25,000 
-● credit score ≥ 700 
+● credit score ≥ 700
+Program:
+age=int(input("Enter your age"))
+salary=int(input("Enter your salary"))
+credit_score=int(input("Enter your credit_score"))
+
+if age >= 21 and salary >= 25000 and credit_score >= 700 :
+    print("Person is eligible for loan")
+else:
+    print("Person is not eligible for loan")
+    
 43. Validate login using username AND password. 
+Program:
+
 44. Check student pass condition: 
 ● All subjects ≥ 40 
 ● Average ≥ 50 
@@ -451,6 +468,3 @@ Program:
 
     
 """
-
-    
-    
