@@ -451,14 +451,26 @@ else:
     
 43. Validate login using username AND password. 
 Program:
-
+user_name=input("Enter your username:")
+pass_word=input("Enter your password:")
+password="Python@1234"
+username="Python"
+if pass_word==password and user_name==username:
+    print("Valid User")
+else:
+    print("Invalid User")
+    
 44. Check student pass condition: 
 ● All subjects ≥ 40 
-● Average ≥ 50 
+● Average ≥ 50
+Program:
+
 45. Check if a number lies between 10 and 100. 
 46. Check exam eligibility: 
 ● attendance ≥ 75% OR 
-● medical certificate available 
+● medical certificate available
+Program:
+
 47. Validate a date using conditions. 
 48. Check whether an email format is valid. 
 49. Determine insurance eligibility using age, health status, and income. 
@@ -468,3 +480,9 @@ Program:
 
     
 """
+
+
+
+
+
+
