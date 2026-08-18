@@ -464,12 +464,36 @@ else:
 ● All subjects ≥ 40 
 ● Average ≥ 50
 Program:
+per=int(input("Enter your total percentage in all subjects:"))
+average=int(input("Enter your total percentage in PCM:"))
 
-45. Check if a number lies between 10 and 100. 
+if per >= 40 or average>=50 :
+    print("You are PASS")
+else:
+    print("You are FAIL")
+
+45. Check if a number lies between 10 and 100.
+Program:
+num=int(input("Enter your Number:"))
+
+if num > 10 and num<100 :
+    print("Number lies between 10 -100")
+else:
+    print("Number not lies between 10 -100")
+
 46. Check exam eligibility: 
 ● attendance ≥ 75% OR 
 ● medical certificate available
 Program:
+att=int(input("Enter your attendance in percentage"))
+medical=input("have certificate Yes or No")
+med=[]
+med.append(medical)
+print(med)
+if att >= 75 or med[0]=="Yes" :
+    print("You are eligible for exam")
+else:
+    print("You are not eligible for exam")
 
 47. Validate a date using conditions. 
 48. Check whether an email format is valid. 
