@@ -495,18 +495,34 @@ if att >= 75 or med[0]=="Yes" :
 else:
     print("You are not eligible for exam")
 
-47. Validate a date using conditions. 
-48. Check whether an email format is valid. 
-49. Determine insurance eligibility using age, health status, and income. 
+47. Validate a date using conditions.
+Program:
+date=int(input("Enter date:"))
+month=int(input("Enter month number:"))
+year=int(input("Enter year:"))
+
+if date>=1 and date<=31 and month>=1 and month<=12 and year>=1000 and year<=9999:
+    print(f"Date is in valid format,{date}/{month}/{year}")
+else:
+    print("Date is not valid")
+
+48. Check whether an email format is valid.
+Program:
+username=input("Enter username:")
+num=int(input("Enter number:"))
+
+if len(username)>=1 and num>=0:
+    print(f"Email is in valid format,{username}{num}@gmail.com")
+else:
+    print("Email is not valid")
+
+49. Determine insurance eligibility using age, health status, and income.
+Program:
+
 50. Check leap year using complete leap year logic.
 
 
 
     
 """
-
-
-
-
-
 
